@@ -1,3 +1,4 @@
+
 def create_abstract_noun(verb):
     if verb.endswith("ати") or verb.endswith("яти") or verb.endswith("іти"):
        abs_noun = verb[:-2] + "нн" + "я"
@@ -27,4 +28,5 @@ def create_noun():
                 break 
             else:
                 print("Нерозпізнана відповідь. Введіть 'так' або 'ні'.")
+
 create_noun()
